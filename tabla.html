@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <style>
+
+        body{
+            font-family: sans-serif;
+        }
+
+        .container{
+            min-height: 500px;
+            background-color:antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container table{
+            height: 100px;
+        }
+
+        .container table thead{
+            background-color: rgb(209, 209, 209);
+        }
+
+        .container table, th,  td{
+            border: solid 1px;
+        }
+
+        .container table td, th{
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .container table tr:hover td{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Carrera</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Javier</td>
+                    <td>Marroquin</td>
+                    <td>Ingenieria en Sistemas</td>
+                </tr>
+                <tr>
+                    <td>Jose</td>
+                    <td>Sanchez</td>
+                    <td>Ingenieria en Sistemas</td>
+                </tr>
+                <tr>
+                    <td>Miriam</td>
+                    <td>Marroquin</td>
+                    <td>Psicologia</td>
+                </tr>
+                <tr>
+                    <td>Edwin</td>
+                    <td>Marroquin</td>
+                    <td>Criminologia</td>
+                </tr>
+                <tr>
+                    <td>Zulmy</td>
+                    <td>Marroquin</td>
+                    <td>Enfermeria</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
